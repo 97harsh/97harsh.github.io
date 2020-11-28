@@ -1,11 +1,11 @@
 baseurl: "/"
-title: "Stackbit Fjord Theme"
+title: "97harsh"
 page_load_js: "assets/js/main.js"
 params:
-  description: A minimal blogging theme for Stackbit
+  description: My Blog
   header:
-    title: Fjord
-    tagline: Minimal and clean blog theme
+    title: 97harsh
+    tagline: What are we really doing here??
     logo_img: "images/logo.png"
     background_img: "images/header-bg.jpg"
     has_nav: true
