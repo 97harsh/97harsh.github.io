@@ -1,7 +1,7 @@
 # Site settings
 title: Harsh Sharma
 description: Showcasing my projects
-baseurl: / # This is the subpath of your site, e.g. /blog
+baseurl: /blog # This is the subpath of your site, e.g. /blog
 url: https://97harsh.github.io
 exclude:
   - Gemfile
