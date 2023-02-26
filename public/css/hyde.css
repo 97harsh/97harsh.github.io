@@ -204,6 +204,14 @@ a.sidebar-nav-item:focus {
 }
 
 
+/* Footer */
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
 
 /*
  * Themes
