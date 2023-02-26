@@ -3,7 +3,7 @@ layout: post
 title: Using Natural Language Processing to Detect Contradictory Claims in COVID-19 Research
 description: This blog post describes a research project that aimed to automatically process a massive body of COVID-19 literature to detect contradictions in research claims related to drug treatments using natural language processing (NLP) and machine learning. The post details the steps taken to extract relevant claims from the CORD-19 dataset, identify sentences that could be compared, create an annotated set of comparable drug-related research claims, and detect contradictions between pairs of papers. The post also discusses the models used and the results obtained, along with potential use cases for the research findings.
 
-tags: NLP, Opensource
+tags: NLP Opensource
 ---
 
 How Natural Language Processing Helps Detect Contradictory Claims in Medical Research during a Pandemic
