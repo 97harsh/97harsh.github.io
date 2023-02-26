@@ -7,8 +7,11 @@ How Natural Language Processing Helps Detect Contradictory Claims in Medical Res
 
 ### Introduction
 
-The COVID-19 pandemic has created an infodemic of research papers about the virus and its potential treatments. With so much new research being produced, it's hard for clinicians and researchers to keep up and determine what works and what doesn't. This is especially true when research papers contain contradictory claims about the efficacy or toxicity of a drug treatment. In this post, we'll discuss how natural language processing (NLP) can be used to automatically process large amounts of medical literature to detect contradictions in claims, which may help curators update databases that inform clinical practice and contextualize if a paper is part of a majority or minority opinion of certain claims.
-
+The COVID-19 pandemic has created an infodemic of research papers about the virus and its potential treatments. With so much new research being produced, it's hard for clinicians and researchers to determine what works and what doesn't. This is especially true when research papers contain contradictory claims about the efficacy or toxicity of drug treatment. In this post, we'll discuss how natural language processing (NLP) can be used to process automatically large amounts of medical literature to detect contradictions in claims, which may help curators update databases that inform clinical practice and contextualize if a paper is part of a majority or minority opinion of specific claims.
+<!-- add links to research on how we extracted the claims -->
+<!-- add links to the repo we built -->
+<!-- Add a link to CORD dataset -->
+<!-- Add links to the analysis we did and some excerpts on what we uncovered -->
 ### Problem statement:
 
 During the peak of COVID-19, when a lot of research was coming out about different drugs that could potentially work, many contradictory claims were made. The challenge was to extract these claims from a large dataset of research papers and identify semantically similar claims for comparison.
@@ -17,7 +20,7 @@ During the peak of COVID-19, when a lot of research was coming out about differe
 
 To extract drug-related research claims, the team used a method developed by Achakulvisut et al. with the June 17 release of COVID-19 filtered texts in the CORD-19 subset of biomedical literature provided by Kaggle. Research claims were extracted from the title, abstract, and conclusion sections only, with a predetermined set of section names being normalized as conclusion sections. To create an annotated set of comparable drug-related research claims, the team created a set of annotator guidelines in collaboration with a team at Roam Analytics. They then sampled a set of 1000 claims pairs for gold standard annotation.
 
-To detect contradictions, the team trained supervised models using a data regime of fine-tuning steps that were more domain- and task-specific. They used the Biomed-RoBERTa model fine-tuned on MedNLI, a corpus of pairs of contradictory/entailing/neutral sentences that are created based on clinicians’ synthetic premises based on hypotheses extracted from clinical notes in electronic medical records. They further fine-tuned the model using ManConCorpus, a corpus of research claims extracted from systematic reviews about specific topics in cardiovascular health. They also used negation detection and SBERT fine-tuned on MedNLI and ManConCorpus for claim similarity detection.
+To detect contradictions, the team trained supervised models using a data regime of fine-tuning steps that were more domain- and task-specific. They used the Biomed-RoBERTa model fine-tuned on MedNLI, a corpus of pairs of contradictory/entailing/neutral sentences created based on clinicians’ synthetic, with a predetermined set of section names notes in electronic medical records. They further fine-tuned the model using ManConCorpus, a corpus of research claims extracted from systematic reviews about specific topics in cardiovascular health. They also used negation detection, and SBERT fine-tuned on MedNLI and ManConCorpus for claim similarity detection.
 
 ### Results:
 
