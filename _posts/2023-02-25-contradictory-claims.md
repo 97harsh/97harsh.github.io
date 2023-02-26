@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Detecting Contradictory Claims in Covid medical research
+description: How Natural Language Processing Helps Detect Contradictory Claims in Medical Research during a Pandemic
 ---
 
 How Natural Language Processing Helps Detect Contradictory Claims in Medical Research during a Pandemic
