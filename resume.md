@@ -29,8 +29,7 @@ Feb 2022 - Aug 2022
 
 - Designed Deep Convolution based models to predict battery faults based on historical data which achieves a recall
 of 80%
-- Implementedasolutionthatsignificantlyreducedtheoveralltransportationcostofelectricbikeby30%throughthe
-use of mixed integer programming
+- Implemented a solution that significantly reduced the overall transportation cost of electric bike by 30% through the use of mixed integer programming
 - Designed and deployed a data pipeline to access all organization data through RESTful APIs, reducing complaint
 resolution time by 40%
 - Technologies used: Python, Pytorch, Pyspark, Django, PostgreSQL, PowerBI
