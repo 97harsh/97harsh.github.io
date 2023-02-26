@@ -146,7 +146,11 @@ a.sidebar-nav-item:focus {
     left:   1rem;
   }
 }
-
+/* Post Image */
+.post-images-class {
+  width: 300px;
+  height: 200px;
+}
 
 /* Container
  *
