@@ -10,6 +10,7 @@ tags: Route Optimization
 ### Introduction
 The project aims to identify the optimal locations for placing SDCs (Scooter Delivery Centers) to minimize the total cost associated with transportation.
 
+![Ola S1 pro scooter image](/assets/images/Ola Scooter S1 pro.webp "Ola Scooter")
 
 ### Problem statement:
 
