@@ -7,7 +7,7 @@ title: About
   Hi, I am Harsh. I am currently doing my MS in AI from Boston University. 
 </p>
 
-If you have somehoughts you can reach out to me at harshsrharsh@gmail.com
+If you have somethoughts you can reach out to me at harshsrharsh@gmail.com
 
 Thanks for reading !!
 
