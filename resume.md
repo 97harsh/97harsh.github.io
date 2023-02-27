@@ -2,6 +2,7 @@
 layout: page
 title: Resume
 ---
+## Harsh Sharma
 
 ## Education
 **Boston University**

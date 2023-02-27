@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey, this page showcases the work I or places I have worked at have done
+  Hi, I am Harsh. I am currently doing my MS in AI from Boston University. 
 </p>
 
 If you have somehoughts you can reach out to me at harshsrharsh@gmail.com
