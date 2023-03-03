@@ -2,85 +2,28 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }} &middot; {{ site.tagline }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
-  <link rel="stylesheet" media="screen and (max-device-width: 769px)" href="{{ site.baseurl }}/public/css/lanyon.css">
-  <link rel="stylesheet" media="screen and (min-device-width: 770px)" href="{{ site.baseurl }}/public/css/hyde.css">
-  <link rel="stylesheet" media="screen and (min-device-width: 770px)" href="{{ site.baseurl }}/public/css/custom-hyde.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-	<link rel="icon" sizes="16x16 32x32 64x64" href="{{ site.baseurl }}/public/favicon.ico">
-	<link rel="icon" type="image/png" sizes="196x196" href="{{ site.baseurl }}/public/favicon-192.png">
-	<link rel="icon" type="image/png" sizes="160x160" href="{{ site.baseurl }}/public/favicon-160.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="{{ site.baseurl }}/public/favicon-96.png">
-	<link rel="icon" type="image/png" sizes="64x64" href="{{ site.baseurl }}/public/favicon-64.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/public/favicon-32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/public/favicon-16.png">
-	<link rel="apple-touch-icon" href="{{ site.baseurl }}/public/favicon-57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/public/favicon-114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/public/favicon-72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="{{ site.baseurl }}/public/favicon-144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/public/favicon-60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="{{ site.baseurl }}/public/favicon-120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="{{ site.baseurl }}/public/favicon-76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="{{ site.baseurl }}/public/favicon-152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/public/favicon-180.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
-	<meta name="msapplication-TileImage" content="{{ site.baseurl }}/public/favicon-144.png">
-	<meta name="msapplication-config" content="{{ site.baseurl }}/public/browserconfig.xml">
-	<link rel="stylesheet" href="{{ site.baseurl }}/public/css/font-awesome.min.css">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-
-  <!-- MathJax -->
-  <script type="text/javascript" async
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    MathJax.Hub.Config({
-      "HTML-CSS": {
-        linebreaks: { automatic: true, width: "container" }          
-      },
-      CommonHTML: {
-        linebreaks: { automatic: true, width: "container" }          
-      }, 
-      SVG: {
-        linebreaks: {automatic: true, width: "container" }
-      }
-    })
-  </script>
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/gpgc_styles.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
-
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml">
-
-  <!--Link Tracking-->
-  <script>
-  /**
-  * Function that tracks a click on an outbound link in Analytics.
-  * This function takes a valid URL string as an argument, and uses that URL string
-  * as the event label. Setting the transport method to 'beacon' lets the hit be sent
-  * using 'navigator.sendBeacon' in browser that support it.
-  */
-  var trackOutboundLink = function(url) {
-     ga('send', 'event', 'outbound', 'click', url, {
-       'transport': 'beacon',
-       'hitCallback': function(){document.location = url;}
-     });
-  }
-  </script>
 </head>
