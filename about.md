@@ -9,11 +9,13 @@ title: About
 
 Connect with me:
 
+
 [harshsrharsh@gmail.com](mailto://harshsrharsh@gmail.com)
 
-[Github](https://github.com/97harsh)
+<a href="https://github.com/97harsh" target="_blank">Github</a>
+<!-- [Github](https://github.com/97harsh) -->
 
-[LinkedIn](https://www.linkedin.com/in/sharma97/)
+<a href="https://www.linkedin.com/in/sharma97/" target="_blank">LinkedIn</a>
 
 
 Thanks for reading !!
