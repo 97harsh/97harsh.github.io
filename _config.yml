@@ -15,6 +15,7 @@ baseurl:          /
 author:
   name:           'Harsh Sharma'
   url:            https://97harsh.github.io
+  github:         97harsh
 
 paginate:         5
 
