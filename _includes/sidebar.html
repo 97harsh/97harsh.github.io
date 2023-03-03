@@ -22,19 +22,30 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-      <div class="sidebar-social">
+      <div class="sidebar-item" id="contact-list" style="text-align:center">
+
+        <p>
+          Contact me:
+        </p>
+    
+    <!--For future reference icons are being drawn from font awesome  (hence fa-stuff classes) -->
         
+        <a href="https://www.twitter.com/{{ site.author.twitter }}">
+          <i class="fa fa-twitter-square fa-lg"></i>
+        </a>
+    
         <a href="https://www.github.com/{{ site.author.github }}">
           <i class="fa fa-github fa-lg"></i>
         </a>
-
-        <a href="https://www.linkedin.com/in/sharma97/" target="_blank">
-          <img src="{{ site.baseurl }}/assets/images/linkedin-logo.png" alt="LinkedIn" style="max-width: 50px;">
+        
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">
+          <i class="fa fa-linkedin-square fa-lg"></i>
         </a>
-
-        <a href="https://github.com/97harsh" target="_blank">
-          <img src="{{ site.baseurl }}/assets/images/github-logo.png" alt="GitHub" style="max-width: 50px;">
+        
+        <a href="mailto: {{ site.author.email }}">
+          <i class="fa fa-envelope fa-lg"></i>
         </a>
+    
       </div>
 
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
