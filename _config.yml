@@ -6,20 +6,30 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            My Portfolio
+title:            Harsh Sharma
 tagline:          'A collection of my open source projects and publications'
 description:      'A personal website showcasing my open source projects, work experience, and publications.'
 url:              https://97harsh.github.io
 baseurl:          /
+paginate:            5
+paginate_path:       "page:num"
 
 author:
   name:           'Harsh Sharma'
   url:            https://97harsh.github.io
+  email:          harshsrharsh@gmail.com
+  linkedin:       sharma97
+  github:         97harsh
 
 paginate:         5
 
 # Custom vars
 version:          1.0.0
+future:           true
 
 github:
   repo:           https://github.com/97harsh
+
+excerpt_separator:   <!-- break -->
+
+gems: [jekyll-paginate]

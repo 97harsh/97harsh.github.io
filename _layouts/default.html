@@ -3,13 +3,49 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="">
+
+    {% include google_analytics.html %}
 
     {% include sidebar.html %}
 
-    <div class="content container">
-      {{ content }}
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a> 
+            <small>{{ site.tagline }}</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        {{ content }}
+        {% include share_social.html text="Check out this cool machine learning blog I found!" %}
+        {% include comments.html %}
+      </div>
     </div>
 
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+    <center style="font-size:12px">© Arpit Sharma {{ "now" | date: "%Y" }} • Please <a href="mailto: s.arpit9656@gmail.com">email</a> me for permission to republish any part of this website</center>
+    <script>
+        (function(document) {		
+        var toggle = document.querySelector('.sidebar-toggle');		
+        var sidebar = document.querySelector('#sidebar');		
+        var checkbox = document.querySelector('#sidebar-checkbox');		
+        document.addEventListener('click', function(e) {		
+          var target = e.target;		
+		
+          if(!checkbox.checked ||		
+             sidebar.contains(target) ||		
+             (target === checkbox || target === toggle)) return;		
+		
+          checkbox.checked = false;		
+        }, false);		
+      })(document);		
+    </script>
+    
   </body>
 </html>
