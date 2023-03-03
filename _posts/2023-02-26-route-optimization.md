@@ -6,6 +6,9 @@ description: In this project that I worked on at Ola, we aimed to identify the o
 tags: ["Route Optimization"]
 ---
 
+### TL;DR
+
+In this project that I worked on at Ola, we aimed to identify the optimal locations to place Self-Driving Cars (SDCs) to minimize transportation costs. We used mixed integer linear programming to solve this problem, setting constraints based on business requirements such as minimum fulfillment center size and personnel. We also cleaned and generated data on city locations, customer addresses, and rental costs for the optimization algorithm. Through our methods, we reduced total costs by 30% and decreased the distance between fulfillment centers and customers by half.
 
 ### Introduction
 The project aims to identify the optimal locations for placing SDCs (Scooter Delivery Centers) to minimize the total cost associated with transportation.
