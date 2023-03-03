@@ -7,9 +7,17 @@ title: About
   Hi, I am Harsh. I am currently doing my MS in AI from Boston University. 
 </p>
 
-If you have somethoughts you can reach out to me at harshsrharsh@gmail.com
+Connect with me:
+
+[harshsrharsh@gmail.com](mailto://harshsrharsh@gmail.com)
+
+[Github](https://github.com/97harsh)
+
+[LinkedIn](https://www.linkedin.com/in/sharma97/)
 
 
 Thanks for reading !!
+
+Also a mention to:
 
 This theme is borrowed from https://github.com/poole/hyde 
