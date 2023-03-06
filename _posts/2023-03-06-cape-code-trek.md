@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hiking in Cape Cod through the Great Island Trail
-description: A Short day trek to Cape Cod from Boston primarily focused on hiking to explore the area.
+description: A Short day trip to Cape Cod from Boston primarily focused on hiking to explore the area
 type: blog
 
 tags: ["Hiking", "USA", "Nature", "Road Trip"]
@@ -42,13 +42,13 @@ Crab Shell I found on the shore
 ![Crab shell I found at the shore](/assets/images/cape_cod_crab_shell.jpg){:class="post-images-class" title="Crab Shell"}
 Image Credits: me
 
-Shore at Cape Code
+Shore at Cape Cod
 ![Shore](/assets/images/cape_cod_shore.jpeg){:class="post-images-class" title="Cape Cod Shore"}
-Image Credits: 
+Image Credits: [Shalu](https://www.instagram.com/shaluabhaykumar/)
 
 Wooden Stairs when you start the trail
 ![Stairs to after the trek starts](/assets/images/cape_cod_stairs.jpeg){:class="post-images-class" title="Cape Cod Shore"}
-Image Credits: 
+Image Credits: [Shalu](https://www.instagram.com/shaluabhaykumar/)
 
 
 
