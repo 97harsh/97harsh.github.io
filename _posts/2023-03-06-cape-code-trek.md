@@ -38,11 +38,19 @@ Once we entered we wanted to travel closer to the beach and through the town, so
 
 ### Pictures from the trail
 
+Crab Shell I found on the shore
 ![Crab shell I found at the shore](/assets/images/cape_cod_crab_shell.jpg){:class="post-images-class" title="Crab Shell"}
+Image Credits: me
 
+Shore at Cape Code
 ![Shore](/assets/images/cape_cod_shore.jpeg){:class="post-images-class" title="Cape Cod Shore"}
+Image Credits: 
 
+Wooden Stairs when you start the trail
 ![Stairs to after the trek starts](/assets/images/cape_cod_stairs.jpeg){:class="post-images-class" title="Cape Cod Shore"}
+Image Credits: 
+
+
 
 #### The trail
 The trail was flat primarily but highly sandy. It takes you through a forest and through Beach
