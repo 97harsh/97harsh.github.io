@@ -26,3 +26,6 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/97harsh
+
+simple_search_enabled: true
+
