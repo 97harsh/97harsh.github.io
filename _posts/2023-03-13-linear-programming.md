@@ -4,7 +4,7 @@ title: Solving simple problems with Linear Programming
 description: This post is to demonstrate how to formulate the given problem into objectives and constraints with a problem that can be solved using linear programming
 type: project
 
-tags: ["Route Optimization"]
+tags: ["Route-Optimization"]
 ---
 
 

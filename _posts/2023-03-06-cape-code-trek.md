@@ -4,7 +4,7 @@ title: Hiking in Cape Cod through the Great Island Trail
 description: A Short day trip to Cape Cod from Boston primarily focused on hiking to explore the area
 type: blog
 
-tags: ["Hiking", "USA", "Nature", "Road Trip"]
+tags: ["Hiking", "USA", "Nature", "Road-Trip"]
 ---
 
 ### TL;DR

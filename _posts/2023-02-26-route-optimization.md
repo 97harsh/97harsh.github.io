@@ -4,7 +4,7 @@ title: Reducing Transportation Costs with Fulfillment Center Location Optimizati
 description: In this project, I worked on at Ola, we aimed to identify the optimal locations to place Scooter Fulfillment centers to minimize transportation costs. We used mixed integer linear programming to solve this problem, setting constraints based on business requirements such as minimum fulfillment center size and personnel. We also cleaned and generated data on city locations, customer addresses, and rental costs for the optimization algorithm. Through our methods, we reduced total costs by 30% and decreased the distance between fulfillment centers and customers by half.
 type: project
 
-tags: ["Route Optimization"]
+tags: ["Route-Optimization"]
 ---
 
 ### TL;DR
