@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Solving simple problems with Linear Programming
+title: Is my task solvable as a Vehicle Routing Problem?
 description: This is to demonstrate what Vehicle Routing Problem is and identifying in the wild when a problem can be solved assuming it is a vehicle routing problem
 type: project
 
