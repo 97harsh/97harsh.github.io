@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Solving simple problems with Linear Programming
-description: This is to demonstrate how to formulate problems with 
+description: This is to demonstrate what Vehicle Routing Problem is and identifying in the wild when a problem can be solved assuming it is a vehicle routing problem
 type: project
 
 tags: ["Route-Optimization"]
