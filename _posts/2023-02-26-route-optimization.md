@@ -27,8 +27,8 @@ The first step was data cleaning and generation. The team had to clean the addre
 
 The next step was problem formulation. The team could only suggest at a high level which city the fulfillment center would be like and not the exact location. Not all states can have fulfillment centers, so we put a penalty variable. We had to approximate future demand based on current EV sales, pending orders, EV sales of all competitors, 2-wheeler sales, and All EV sales in India. The team created what it would look like if Ola started selling 30k scooters monthly. The goal was to minimize the overall cost of transportation, which included the first mile (factory to a fulfillment center), the last mile (fulfillment center to customer), and the cost of renting fulfillment centers.
 
-<!-- TODO: Add what is simplex algorithm here or as another blog post -->
-<!-- Add Ola scooter images -->
+<!-- TODO: Add what is simplex algorithm here or as another blog post:Done -->
+<!-- Add Ola scooter images:Done -->
 
 To solve this problem, the team used mixed-integer linear programming. We used the simplex algorithm, which is a basic linear solver. If a solution exists, it exists on one of the extreme points (corners). The solver moves toward points with larger and larger values (like gradient descent, but it can only move along edges to the next extreme point). When driving along in this fashion, if it encounters an open border, the problem is infeasible (no solution). We added lower and upper bounds as constraining equations (e.g., if x>5, then instead, We added y=x-5). The team included several constraints from the business, such as some fulfillment centers can only serve their state. Still, it was not feasible for some other states, e.g., Northeastern states (very few orders). There was also a constraint on the minimum size of a fulfillment center (10,000 sq ft) and a restriction on the minimum personnel required in a fulfillment center (security guards, manager). Only one fulfillment center can serve a city. The team assumed enough scooters would always be available to fulfill all locations' demands.
 
