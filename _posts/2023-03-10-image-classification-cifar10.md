@@ -10,20 +10,20 @@ tags: ["Computer-Vision"]
 ### TL;DR
 
 What worked:
-* Deep networks: Yes but too Deep network leads to overfitting and taking very long to train
+* Deeper networks: Yes, but too Deep a network leads to overfitting and taking very long to train
 * Wider networks: Yes, try to make your networks Deeper in the middle as more and more information is captured in those layers
-* Learning Rate: Try starting to train with a small learning rate(1e-5), if training is too slow, you can experiment with increasing learning rates
-* Monitor Validation Metric: Helps to identify if network is underfitted or overfitted
+* Learning Rate: Try starting to train with a small learning rate(1e-5). If training is too slow, you can experiment with increasing learning rates
+* Monitor Validation Metric: Helps to identify if the network is under-fitted or overfitted
 
 ### Cifar 10 Description:
-Given an image classify it into one of the 10 classes
+Given an image, classify it into one of the 10 classes
 
 ### Input
 Image with 3 channels(R,G,B)
 
 ### Output
 Cifar 10 classes:
-airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+Airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
 
 
 
