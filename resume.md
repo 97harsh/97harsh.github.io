@@ -34,7 +34,7 @@ Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" targ
 
 ## Work Experience
 
-### Data Scientist, <a href="https://olaelectric.com/" target="_blank">OlaElectric</a> (Electric Two Wheeler Manufacturer)
+### Software Engineer in Machine Learning, <a href="https://olaelectric.com/" target="_blank">OlaElectric</a> (Electric Two Wheeler Manufacturer)
 Feb 2022 - Aug 2022
 
 #### Vehicle Lifecycle Management
@@ -55,7 +55,7 @@ for electric bikes by **_∼USD 6M_** per year, a reduction of 30% through the u
 
 <br>
 
-### Data Scientist, <a href="https://fractal.ai" target="_blank">Fractal Analytics</a> (Management Consulting)
+### Software Engineer in Machine Learning, <a href="https://fractal.ai" target="_blank">Fractal Analytics</a> (Management Consulting)
 Jun 2019 - Feb 2022
 #### Lead Generation for Relationship managers, Standard Chartered (Multinational Bank)
 - Created ETL pipeline using hive to clean and process transactional data used in 3 downstream applications
@@ -64,16 +64,19 @@ Jun 2019 - Feb 2022
 
 #### Estimating effect of promotions and Baseline Forecasting, Reckitt Benckiser (Consumer Goods Company)
 - Created and Deployed an Elasticnet-based regression model that accurately forecasts retail sales and reduces run time by **_20 hours_**; a reduction of 80% compared to earlier deployment
+- Success of the solution lead to winning contracts for 7 more markets
 #### Star Award: Awarded for out of the box thinking and innovation in deploying solutions
 
 
 #### Baseline Forecasting in Covid, Reckitt Benckiser (Consumer Goods Company)
 - Built a new pipeline with a three-person team to forecast baseline sales for all retail stores in a market near the COVID period 
+- Created novel features based on covid geographic data which helped the model forecast good results even in unstable Covid markets
 - The created model performed <15% MAPE on unseen near-future forecasts
 
 
 #### Entity Mapping, Standard Chartered (Multinational Bank)
 - Developed entity recognition model using a combination of GloVe embeddings and expectation maximization
+- Enriched the Embeddings using alternate names extracted from news data and by matching child entities.
 - Achieved a 90% match score on all client names within the organization 
 
 #### Feedback Capturing, Standard Chartered (Multinational Bank)
@@ -108,4 +111,5 @@ May 2018 - Mar 2019
 
 Pune May 2018 - Jul 2018 
 - Implemented semi-supervised clustering in Python and C++ to identify anomalous network activities
-- Annotated clusters to uncover malicious network access and malfunctioning devices, contributing to firewall updates
+- Annotated clusters to uncover malicious network access and Malfunctioning devices.
+- Anomalous clusters helped identify open ports, malicious devices on the network, devices with malfunctioning software which had high levels of network activity
