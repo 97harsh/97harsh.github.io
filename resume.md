@@ -5,9 +5,9 @@ title: Resume
 ## Harsh Sharma
 
 ## Summary
-Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in natural language processing and prompt engineering. Skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. Demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research. Seeking a summer intern position where I can apply my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
+Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in natural language processing and Prompt engineering. I am skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. I have demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research and seeking a summer intern position where I can use my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
 
-
+<!-- #### Checkout my Certifications: <a href="{site.baseurl}/certifications" target="_blank">Prof. Iddo Drori</a> -->
 ## Education
 **Boston University**
 #### Master of Science in Artificial Intelligence
@@ -46,14 +46,20 @@ Feb 2022 - Aug 2022
 - Designed Attention LSTM-based models to predict battery faults with a recall rate of 80% using past 100km driving data
 - The model is comprised of two parts: The first LSTM model focuses on forecasting the time series, the second LSTM focuses on Predicting if the forecasted time series has a fault
 
-##### Creating Data Pipelines
+##### Data Pipeline Automation for Efficient Complaint Resolution
 - Designed and deployed a data pipeline to access all organization data through RESTful APIs, reducing complaint resolution time by **_~5 days_** (40%)
 - The Django-based application runs ETL jobs scheduled(using Celery) to fetch new data from identified data sources and puts them into the AWS bucket
+
+##### Real-time Analytics using Apache Spark and Airflow
+- Designed and implemented a real-time fault monitoring system for electric scooters using Apache Spark and Airflow.
+- The system provided daily fault statistics and trend analysis to stakeholders via custom email templates
+- Automated the data collection and presentation process, reducing manual intervention and improving efficiency.
+
 
 #### Route Optimization
 - Implemented a solution that  would reduce the cost of transportation
 for electric bikes by **_∼USD 6M_** per year, a reduction of 30% through the use of mixed integer programming
-- Resulted in a reduction of per scooter transportation cost by 30% and Turned Around Time(TAT) by 20% from placing an order to fulfilling it
+- Resulted in a reduction of per-electric bike transportation cost by 30% and Turned Around Time(TAT) by 20% from placing an order to fulfilling it
 
 #### Technologies used: Python, Pytorch, Pyspark, Django, PostgreSQL, PowerBI
 
