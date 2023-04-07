@@ -4,6 +4,10 @@ title: Resume
 ---
 ## Harsh Sharma
 
+## Summary
+Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in prompt engineering and natural language processing. Skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. Demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research. Seeking a summer intern position where I can apply my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
+
+
 ## Education
 **Boston University**
 #### Master of Science in Artificial Intelligence
