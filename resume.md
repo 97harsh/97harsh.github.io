@@ -5,7 +5,7 @@ title: Resume
 ## Harsh Sharma
 
 ## Summary
-Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in prompt engineering and natural language processing. Skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. Demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research. Seeking a summer intern position where I can apply my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
+Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in natural language processing and prompt engineering. Skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. Demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research. Seeking a summer intern position where I can apply my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
 
 
 ## Education
@@ -26,7 +26,7 @@ Courses: Data Structures and Algorithm, Pattern Recognition and Machine Learning
 ## Currently
 ### Research Assistant, Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" target="_blank">Prof. Iddo Drori</a>
 - Researching techniques in Prompt engineering on large language models like GPT4
-- Building techniques in creating content for education using prompt engineering
+- Building techniques in creating content for education using prompt engineering with Techniques like Chain of Though(CoT) prompting, Automatic Prompt Engineering
 
 ## Course Project
 ### Graphics Generation using Natural Language
