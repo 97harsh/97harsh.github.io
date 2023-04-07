@@ -7,7 +7,7 @@ title: Resume
 ## Summary
 Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in natural language processing and Prompt engineering. I am skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. I have demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research and seeking a summer intern position where I can use my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
 
-#### Checkout my Certifications: <a href="/certifications" target="_blank">link</a>
+#### Checkout my Certifications: <a href="/certifications" >link</a>
 ## Education
 **Boston University**
 #### Master of Science in Artificial Intelligence
