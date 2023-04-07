@@ -11,6 +11,7 @@ GPA:3.8/4.0 <br />
 Expected Dec 2023 <br />
 Courses: Deep Learning(CS523), Image and Video Computation(CS585), Algorithms for Big Data(CS551)
 
+
 **Indian Institute of Technology, Guwahati**
 #### Bachelor of Technology in Engineering Physics
 Minor in Electronics and Communication Engineering <br />
@@ -20,44 +21,48 @@ Courses: Data Structure and Algorithm, Pattern Recognition and Machine Learning,
 
 ## Currently
 ### Research Assistant, Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" target="_blank">Prof. Iddo Drori</a>
-- Researching techniques in Prompt engineering on large language models
-- Building techniques in content creation for education
+- Researching techniques in Prompt engineering on large language models like GPT4
+- Building techniques in creating content for education using prompt engineering
 
 ### Graphics Generation using Natural Language, Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" target="_blank">Prof. Iddo Drori</a>
 <a href="https://bit.ly/3Sv38Us" target="_blank">link</a>
 
 - Implemented a code generation and modification loop using a natural language prompt using Python and Pytorch
-- Demonstrated adding and removing objects using GPT-3 simulated on CARLA
+- Demonstrated adding and removing objects on CARLA simulations using GPT-3
 
 ## Work Experience
 
-### Data Scientist, Ola ANI Technologies
+### Data Scientist, <a href="https://olaelectric.com/" target="_blank">OlaElectric</a> (Electric Two Wheeler Manufacturer)
 Feb 2022 - Aug 2022
 
 #### Vehicle Lifecycle Management
-- Designed LSTM-based models to predict battery faults with a recall rate of 80% using past 100km driving data
-- Designed and deployed a data pipeline to access all organization data through RESTful APIs, reducing complaint resolution time by 40%
+- Designed Attention LSTM-based models to predict battery faults with a recall rate of 80% using past 100km driving data
+- Designed and deployed a data pipeline to access all organization data through RESTful APIs, reducing complaint resolution time by **_~5 days_** (40%)
 
 #### Route Optimization
-- Implemented a solution that significantly reduced the overall transportation cost of electric bike by 30% through the use of mixed integer programming
-- Resulted in reduction of per scooter transportation cost by 30% and Turn Around Time(TAT) by 20% from placing order to fulfilling it
-
+- Implemented a solution that  would reduce the cost of transportation
+for electric bikes by **_∼USD 6M_** per year, a reduction of 30% through the use of mixed integer programming
+- Resulted in a reduction of per scooter transportation cost by 30% and Turned Around Time(TAT) by 20% from placing an order to fulfilling it
 #### Technologies used: Python, Pytorch, Pyspark, Django, PostgreSQL, PowerBI
 
 
-### Data Scientist, Fractal Analytics
+### Data Scientist, <a href="https://fractal.ai" target="_blank">Fractal Analytics</a> (Management Consulting)
 Jun 2019 - Feb 2022
-#### RM leads generation
+#### Lead Generation for Relationship managers, Standard Chartered (Multinational Bank)
 - Created ETL pipeline using spark to clean and process transactional data used in 3 downstream applications
-- Improved write speed into hive tables by 50% by exploiting hive’s properties for internal module using python 
-#### Baseline Forecasting
-- Built new pipeline with 3 person team to forecast baseline sales for all retail stores in a market near COVID period • Created model performed <15% MAPE on unseen near future forecasts
-#### Entity Mapping:
+- Improved write speed into hive tables by 50% by exploiting hive’s properties for the internal module using python 
+
+#### Baseline Forecasting, Reckitt Benckiser (Consumer Goods Company)
+- Built a new pipeline with a three-person team to forecast baseline sales for all retail stores in a market near the COVID period 
+- The created model performed <15% MAPE on unseen near-future forecasts
+
+#### Entity Mapping, Standard Chartered (Multinational Bank)
 - Developed entity recognition model using a combination of GloVe embeddings and expectation maximization
 - Achieved 90% match score on all client names within the organization 
 
 #### Technologies used: Python, Pyspark, Tensorflow, Hadoop, PowerBI
 
+<br>
 
 ## Projects
 ### Contradictory Claims Identification, <a href="https://coronawhy.org" target="_blank">Coronawhy.org</a>
