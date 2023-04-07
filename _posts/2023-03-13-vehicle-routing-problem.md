@@ -2,7 +2,7 @@
 layout: post
 title: Is my task solvable as a Vehicle Routing Problem?
 description: This is to demonstrate what Vehicle Routing Problem is and identifying in the wild when a problem can be solved assuming it is a vehicle routing problem
-type: project
+type: blog
 
 tags: ["Route-Optimization"]
 ---
