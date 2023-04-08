@@ -100,7 +100,7 @@ Jun 2019 - Feb 2022
 ## Projects
 ### Contradictory Claims Identification, <a href="https://coronawhy.org" target="_blank">Coronawhy.org</a>
 <a href="https://bit.ly/3KLFPDQ" target="_blank">link</a>
-<a href="{{site.baseurl}}//2023/02/26/route-optimization/" target="_blank">Blog</a>
+<a href="/2023/02/26/route-optimization/" target="_blank">Blog</a>
 
 Apr 2020 - Apr 2021
 - Developed an end-to-end machine learning pipeline to identify contradictory claims from medical research papers 
