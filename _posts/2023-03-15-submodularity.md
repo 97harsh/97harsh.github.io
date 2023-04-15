@@ -3,6 +3,8 @@ layout: post
 title: What is submodularity
 description: Submodularity is a term used to describe the concept of diminishing returns. Adding more agents will not give a proportionally high yield if you have a submodular system. E.g., In parallel processing, using two threads would not make the system 2x as fast, or using 10x the threads does not make the system as fast.
 type: blog
+meta_description: "Discover the concept of submodularity and how it relates to diminishing returns. This post explains the meaning of submodularity and provides examples of how it applies in different contexts, such as parallel processing. Read on to learn more about this important concept and its implications."
+
 
 tags: ["Route-Optimization"]
 ---

@@ -3,6 +3,8 @@ layout: post
 title: Solving simple problems with Linear Programming
 description: This post is to demonstrate how to formulate the given problem into objectives and constraints with a problem that can be solved using linear programming
 type: blog
+meta_description: "Learn how to solve simple problems using linear programming by formulating objectives and constraints. This post provides an example problem that demonstrates the process of using linear programming to optimize solutions. Read on to discover more about this mathematical technique and how it can be applied to various problems."
+
 
 tags: ["Route-Optimization"]
 ---

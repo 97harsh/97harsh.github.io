@@ -3,6 +3,8 @@ layout: post
 title: Image Classification with Cifar 10
 description: This post shows how to create a Convolution neural network to classify images in Cifar 10. It also highlights what worked and what didn't when building this network.
 type: project
+meta_description: "Learn how to create a convolutional neural network to classify images in Cifar 10 and discover what worked and what didn't when building this network. Read this post to find out more about the process and techniques used in this computer vision project."
+
 
 tags: ["Computer-Vision"]
 ---
