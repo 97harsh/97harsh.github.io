@@ -21,7 +21,17 @@
 
   <!-- Inline critical CSS -->
   <style>
-    /* CSS rules for above-the-fold content */
+    /* Use font-display to ensure text is user-visible while webfonts are loading */
+    @font-face {
+      font-family: 'PT Sans';
+      font-display: swap;
+      src: url('https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface');
+    }
+    @font-face {
+      font-family: 'Abril Fatface';
+      font-display: swap;
+      src: url('https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface');
+    }
   </style>
 
   <!-- Defer non-critical CSS -->
