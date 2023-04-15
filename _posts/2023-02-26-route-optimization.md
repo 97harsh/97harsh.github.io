@@ -15,7 +15,7 @@ In this project that I worked on at Ola, we aimed to identify the optimal locati
 ### Introduction
 The project aims to identify the optimal locations for placing Scooter Fulfillment centers to minimize the total cost associated with transportation.
 
-![Ola S1 pro scooter image](/assets/images/Ola Scooter S1 pro.webp){:class="post-images-class" title="Ola Scooter"}
+![Ola S1 pro scooter image](/assets/images/Ola Scooter S1 pro.webp){:class="post-images-class" title="Ola Scooter" alt="A photo of Ola S1 pro scooter"}
 
 ### Problem statement:
 
