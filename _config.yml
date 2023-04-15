@@ -26,3 +26,6 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/97harsh
+
+# Meta Description
+meta_description: 'A personal website showcasing my open source projects, work experience and publications.'
