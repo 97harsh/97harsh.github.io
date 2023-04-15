@@ -10,6 +10,8 @@ tags: ["Medical-Research"]
 ## TLDR;
 Features an article about a groundbreaking development by researchers from Tel Aviv University - a micro-robot that can potentially revolutionize the field of single-cell analysis. Inspired by biological swimmers like bacteria, the tiny robot leverages magnetic and electric fields for navigation and manipulation, enabling it to differentiate between healthy, damaged, and dying cells
 
+<a href="https://en.wikipedia.org/wiki/OpenAI" data-wikipedia-preview>OpenAI</a>
+
 
 <a href="https://onlinelibrary.wiley.com/share/H3PFSHUARGIAKZQSRUIB?target=10.1002/advs.202204931" target="_blank">A Magnetically and Electrically Powered Hybrid Micromotor in Conductive Solutions: Synergistic Propulsion Effects and Label-Free Cargo Transport and Sensing</a>
 
