@@ -24,6 +24,7 @@ This theme is borrowed from https://github.com/poole/hyde
 Sitemap generated using: 
 <a href="https://www.xml-sitemaps.com/" target="_blank">XML-Sitemaps</a>
 
+Test you webpage speed using: <a href="https://pagespeed.web.dev/" target="_blank">PageSpeed</a>
 
 ## License
 
