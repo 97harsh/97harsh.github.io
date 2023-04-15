@@ -12,6 +12,8 @@ Features an article about a groundbreaking development by researchers from Tel A
 
 <span class="wmf-wp-with-preview" data-wikipedia-preview="">ivory</span>
 
+<a href="https://en.wikipedia.org/wiki/JavaScript" data-wikipedia-preview="JavaScript">JavaScript</a>
+
 <a href="https://en.wikipedia.org/wiki/OpenAI" data-wikipedia-preview>OpenAI</a>
 
 
