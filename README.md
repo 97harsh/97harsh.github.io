@@ -1,11 +1,28 @@
-# Hyde
+## Hi There!!
 
-Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+<p class="message">
+  Hi, I am Harsh. I am currently doing my MS in AI from Boston University. 
+</p>
 
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
+Connect with me:
 
-## To add new Tag pages:
-Create a page under tags/ with the name of the tag
+
+[harshsrharsh@gmail.com](mailto://harshsrharsh@gmail.com)
+
+<a href="https://github.com/97harsh" target="_blank">Github</a>
+<!-- [Github](https://github.com/97harsh) -->
+
+<a href="https://www.linkedin.com/in/sharma97/" target="_blank">LinkedIn</a>
+
+
+Thanks for reading !!
+
+Also a mention to:
+
+This theme is borrowed from https://github.com/poole/hyde 
+
+Sitemap generated using: 
+<a href="https://www.xml-sitemaps.com/" target="_blank">XML-Sitemaps</a>
 
 
 ## License
