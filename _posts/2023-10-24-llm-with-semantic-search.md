@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Learnings from LLM wiht Semantic Search
-description: 
+title: Learnings from LLM with Semantic Search
+description: What I learnt while reading about LLM with semantic search in terms of theory and practical aspects
 type: blog
 
 tags: ["NLP"]
