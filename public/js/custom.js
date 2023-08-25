@@ -1,3 +1,19 @@
+/**
+ * Dynamic Image Resizing Function
+ * 
+ * This function adjusts the dimensions of images with the class `.dynamic-width` based on provided data attributes.
+ * By default, images are centered. The alignment can be changed using the `data-align` attribute.
+ * 
+ * Usage:
+ * - To set width: `data-width="300"`
+ * - To set height: `data-height="200"`
+ * - To align left: `data-align="left"`
+ * - To align right: `data-align="right"`
+ * 
+ * Example:
+ * <img src="/path/to/image.jpg" class="dynamic-width" data-width="300" data-align="left" alt="Description">
+ */
+
 document.addEventListener("DOMContentLoaded", function() {
     var images = document.querySelectorAll('.dynamic-width');
 

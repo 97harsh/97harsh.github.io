@@ -1,3 +1,18 @@
+/* 
+Dynamic Width Image
+Use this class for images that you want to dynamically resize based on data attributes.
+This class centers the image by default. To align the image to the left or right, use the `data-align` attribute.
+
+Markup:
+<img src="/path/to/image.jpg" class="dynamic-width" alt="Description">
+<img src="/path/to/image.jpg" class="dynamic-width" data-width="300" alt="Description">
+<img src="/path/to/image.jpg" class="dynamic-width" data-height="200" alt="Description">
+<img src="/path/to/image.jpg" class="dynamic-width" data-width="300" data-height="200" alt="Description">
+<img src="/path/to/image.jpg" class="dynamic-width" data-align="left" alt="Description">
+<img src="/path/to/image.jpg" class="dynamic-width" data-align="right" alt="Description">
+
+Styleguide Components.Images.DynamicWidth
+*/
 .dynamic-width {
     width: auto;
     height: auto;
@@ -6,12 +21,23 @@
     max-width: 100%;
 }
 
+/* 
+Left Alignment for Dynamic Width Image
+Use this class in conjunction with `.dynamic-width` to align the image to the left.
 
+Styleguide Components.Images.AlignLeft
+*/
 .align-left {
     margin-right: auto;
     margin-left: 0;
 }
 
+/* 
+Right Alignment for Dynamic Width Image
+Use this class in conjunction with `.dynamic-width` to align the image to the right.
+
+Styleguide Components.Images.AlignRight
+*/
 .align-right {
     margin-left: auto;
     margin-right: 0;
