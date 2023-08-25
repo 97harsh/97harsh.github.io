@@ -23,7 +23,11 @@ The embedding generated using the set of sentences
     var spec = "{{site.baseurl}}/assets/jsons/embedding_1.json";
     vegaEmbed('#vis', spec).then(function(result) {
         // Access the Vega view instance as result.view
+        var newWidth = 350; // Set your desired height here
+        result.view.width(newWidth).run();
     }).catch(console.error);
 </script>
+
+As you'll observe here, the Points representing similar ideas are closer together, Also a point to note would be the image that you'll generate might not be exactly same everytime for the same set of embeddings
 
 Point to note, for the mathematically curious. The plot I'm creating at the end is just a projection into 2D space done using UMAP of the embeddings. This method although robust has some assumptions which might or might not be met always, if you're curious here's a blog post on UMAP's website on how it really works <a href = "https://umap-learn.readthedocs.io/en/latest/how_umap_works.html" target="_blank">UMAP</a>
