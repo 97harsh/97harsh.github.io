@@ -26,7 +26,10 @@ We'll use a concept called as BM25, similar to <a href = "https://en.wikipedia.o
 
 ### Inverted Index
 To speed up the BM25 based keyword search, a popular method used is to index all the keywords along with the keywords being used. For every keyword in the document the document IDs where the word appears is stored; which helps in fast lookup of the words, sort of like condensing the words into a more easily searchable format
-![How query is executed](/assets/images/inverted_index.jpeg){:class="post-images-class" title="Inverted Index Example" alt="Picture showing how inverted index has keywords along with document ID"}
+
+<!-- ![How query is executed](/assets/images/inverted_index.jpeg){:class="post-images-class" title="Inverted Index Example" alt="Picture showing how inverted index has keywords along with document ID"} -->
+<img src="/assets/images/inverted_index.jpeg" alt="Picture showing how inverted index has keywords along with document ID" title="Inverted Index Example" width="300" height="200">
+
 
 
 ### Limitations
