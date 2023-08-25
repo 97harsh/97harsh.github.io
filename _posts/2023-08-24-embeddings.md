@@ -17,10 +17,9 @@ I have used a simple and light model(<a href = "https://huggingface.co/distilber
 <script src="https://gist.github.com/97harsh/806a6b6c7c65cc2aff997a44efaeec49.js"></script>
 
 The embedding generated using the set of sentences
-<div id="vis"></div>
 
 <script type="text/javascript">
-    var spec = "{{ site.baseurl }}/assets/json/embedding_1.json";
+    var spec = "{{ site.baseurl }}/assets/jsons/embedding_1.json";
     vegaEmbed('#vis', spec).then(function(result) {
         // Access the Vega view instance as result.view
     }).catch(console.error);
