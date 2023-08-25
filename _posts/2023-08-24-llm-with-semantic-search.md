@@ -13,6 +13,7 @@ tags: ["NLP"]
 There are two stages of Query execution, Retreival phase and Reranking phase, this two staged approach is often used to balance efficiency and effectiveness
 
 **Retrieval Stage**: In this stage, a fast and approximate method is used to retrieve a broad set of potentially relevant documents from a large corpus. This is often done using techniques like inverted indexing, BM25, or other efficient retrieval methods. The goal is to quickly narrow down the vast number of documents to a smaller, manageable set that likely contains the relevant documents.
+
 **Reranking Stage**: Given the subset of documents from the first stage, more computationally intensive and sophisticated models, often deep learning-based models like BERT, are used to rerank the documents to improve the precision of the top results. The idea is to refine the results, ensuring that the most relevant documents are ranked at the top.
 
 
