@@ -16,5 +16,14 @@ I have used a simple and light model(<a href = "https://huggingface.co/distilber
 
 <script src="https://gist.github.com/97harsh/806a6b6c7c65cc2aff997a44efaeec49.js"></script>
 
+The embedding generated using the set of sentences
+<div id="vis"></div>
+
+<script type="text/javascript">
+    var spec = "/assets/json/embedding_1.json";
+    vegaEmbed('#vis', spec).then(function(result) {
+        // Access the Vega view instance as result.view
+    }).catch(console.error);
+</script>
 
 Point to note, for the mathematically curious. The plot I'm creating at the end is just a projection into 2D space done using UMAP of the embeddings. This method although robust has some assumptions which might or might not be met always, if you're curious here's a blog post on UMAP's website on how it really works <a href = "https://umap-learn.readthedocs.io/en/latest/how_umap_works.html" target="_blank">UMAP</a>
