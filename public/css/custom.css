@@ -1,3 +1,6 @@
 .dynamic-width {
-    height: auto; /* to maintain the aspect ratio */
+    width: auto;  /* Default width */
+    height: auto; /* Default height to maintain the aspect ratio */
+    display: block; /* To ensure it's treated as a block element, which can help with some scaling issues */
+    max-width: 100%; /* Optional: to ensure the image doesn't overflow its container */
 }
