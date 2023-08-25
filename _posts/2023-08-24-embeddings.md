@@ -18,6 +18,7 @@ I have used a simple and light model(<a href = "https://huggingface.co/distilber
 
 The embedding generated using the set of sentences
 
+<div id="vis"></div>
 <script type="text/javascript">
     var spec = "https://raw.githubusercontent.com/vega/vega-lite/next/examples/specs/bar.vl.json";
     vegaEmbed('#vis', spec).then(function(result) {
