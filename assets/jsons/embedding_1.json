@@ -1,0 +1,92 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+    "config": {
+      "view": {
+        "continuousHeight": 300,
+        "continuousWidth": 400
+      }
+    },
+    "data": {
+      "name": "data-6d10149daa210887d822132dc58524ac"
+    },
+    "datasets": {
+      "data-6d10149daa210887d822132dc58524ac": [
+        {
+          "texts": "What color is the sky?",
+          "x": -0.6094668507575989,
+          "y": 5.8615193367004395
+        },
+        {
+          "texts": "The sky is blue.",
+          "x": -0.9124335050582886,
+          "y": 6.325180530548096
+        },
+        {
+          "texts": "What is the primary function of a computer's CPU?",
+          "x": -16.511268615722656,
+          "y": -6.53890323638916
+        },
+        {
+          "texts": "A computer's CPU processes instructions and manages various computational tasks.",
+          "x": -16.196054458618164,
+          "y": -6.848308563232422
+        },
+        {
+          "texts": "Who was the first president of the United States?",
+          "x": -0.9957442283630371,
+          "y": 5.219786643981934
+        },
+        {
+          "texts": "George Washington was the first president of the United States.",
+          "x": -1.4967128038406372,
+          "y": 5.455211639404297
+        },
+        {
+          "texts": "Who wrote 'Romeo and Juliet'?",
+          "x": -1.2621665000915527,
+          "y": 4.548620700836182
+        },
+        {
+          "texts": "William Shakespeare wrote 'Romeo and Juliet'.",
+          "x": -1.611161708831787,
+          "y": 4.289278507232666
+        },
+        {
+          "texts": "What is the process by which plants make food using sunlight?",
+          "x": -16.911556243896484,
+          "y": -6.02938175201416
+        },
+        {
+          "texts": "Photosynthesis is the process by which plants make food using sunlight.",
+          "x": -17.180301666259766,
+          "y": -5.704187870025635
+        }
+      ]
+    },
+    "encoding": {
+      "tooltip": {
+        "field": "texts",
+        "type": "nominal"
+      },
+      "x": {
+        "field": "x",
+        "scale": {
+          "zero": false
+        },
+        "type": "quantitative"
+      },
+      "y": {
+        "field": "y",
+        "scale": {
+          "zero": false
+        },
+        "type": "quantitative"
+      }
+    },
+    "height": 400,
+    "mark": {
+      "size": 60,
+      "type": "circle"
+    },
+    "width": 700
+  }
