@@ -20,7 +20,7 @@ The embedding generated using the set of sentences
 
 <div id="vis"></div>
 <script type="text/javascript">
-    var spec = "https://raw.githubusercontent.com/vega/vega-lite/next/examples/specs/bar.vl.json";
+    var spec = "{{site.baseurl}}/assets/jsons/embedding_1.json";
     vegaEmbed('#vis', spec).then(function(result) {
         // Access the Vega view instance as result.view
     }).catch(console.error);
