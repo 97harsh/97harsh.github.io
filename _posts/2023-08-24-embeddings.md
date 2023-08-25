@@ -19,7 +19,7 @@ I have used a simple and light model(<a href = "https://huggingface.co/distilber
 The embedding generated using the set of sentences
 
 <script type="text/javascript">
-    var spec = "{{ site.baseurl }}/assets/jsons/embedding_1.json";
+    var spec = "https://raw.githubusercontent.com/vega/vega-lite/next/examples/specs/bar.vl.json";
     vegaEmbed('#vis', spec).then(function(result) {
         // Access the Vega view instance as result.view
     }).catch(console.error);
