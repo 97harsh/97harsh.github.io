@@ -19,10 +19,10 @@ I have a combination of two lambda functions running:
 
 1. To Fetch new jobs every few hours and push them to DynamoDB
 
-![Lambda Function 1](/assets/images/find_jobs_lambda_1.jpeg){:class="dynamic-width" data-width="400" title="Process Diagram of Lambda 1" alt="Picture showing Lambda 1 Process"}
+![Lambda Function 1](/assets/images/find_jobs_lambda_1.jpeg){:class="dynamic-width" data-width="600" title="Process Diagram of Lambda 1" alt="Picture showing Lambda 1 Process"}
 
 2. To Fetch newly inserted rows in DynamoDB and push them to Google Sheets
-![Lambda Function 2](/assets/images/find_jobs_lambda_2.jpeg){:class="dynamic-width" data-width="400" title="Process Diagram of Lambda 2" alt="Picture showing Lambda 2 Process"}
+![Lambda Function 2](/assets/images/find_jobs_lambda_2.jpeg){:class="dynamic-width" data-width="600" title="Process Diagram of Lambda 2" alt="Picture showing Lambda 2 Process"}
 
 
 Next Steps:
