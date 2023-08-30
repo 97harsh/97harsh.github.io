@@ -6,7 +6,7 @@ title: Resume
 
 ## Summary
 Artificial intelligence expert with a Master of Science in AI from Boston University and experience researching and developing techniques in natural language processing and Prompt engineering. I am skilled in data science and machine learning with a proven track record of designing and implementing models that improve operational efficiency and reduce costs. I have demonstrated success in applying these skills to real-world problems in vehicle lifecycle management, route optimization, and medical research and seeking a summer intern position where I can use my expertise to advance the field of artificial intelligence and contribute to the organization's mission.
-
+resume
 #### Checkout my Certifications: <a href="/certifications" >link</a>
 ## Education
 **Boston University**
@@ -37,8 +37,16 @@ Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" targ
 - Demonstrated adding and removing objects on CARLA simulations using GPT-3
 
 ## Work Experience
+### Data Science Intern, <a href="https://www.weavegrid.com/" target="_blank">WeaveGrid</a> (EV B2B SaaS)
+Jun 2023 - Aug 2023
 
-### Software Engineer in Machine Learning, <a href="https://olaelectric.com/" target="_blank">OlaElectric</a> (Electric Two Wheeler Manufacturer)
+#### Vehicle Park Time Prediction
+- Implemented models predicting EV charging behavior, including predicting plug-in times (average error <1.5hrs)
+and plug-in demand(KWh) (average error <5KWh
+- Results in reducing peak load by 30% for managed group EV charging, leading to substantial cost savings and
+significantly improved grid performance.
+
+### Machine Learning Engineer, <a href="https://olaelectric.com/" target="_blank">OlaElectric</a> (Electric Two Wheeler Manufacturer)
 Feb 2022 - Aug 2022
 
 #### Vehicle Lifecycle Management
@@ -65,7 +73,7 @@ for electric bikes by **_∼USD 6M_** per year, a reduction of 30% through the u
 
 <br>
 
-### Software Engineer in Machine Learning, <a href="https://fractal.ai" target="_blank">Fractal Analytics</a> (Management Consulting)
+### Machine Learning Engineer, <a href="https://fractal.ai" target="_blank">Fractal Analytics</a> (Management Consulting)
 Jun 2019 - Feb 2022
 #### Lead Generation for Relationship managers, Standard Chartered (Multinational Bank)
 - Created ETL pipeline using hive to clean and process transactional data used in 3 downstream applications
