@@ -2,7 +2,7 @@
 layout: post
 title: Automating My Job Search with AWS Lambda, DynamoDB and Google Sheets
 description: I built an automated job search assistant using AWS serverless services to streamline my upcoming job hunt as a new grad. This project leverages Lambda, DynamoDB, SQS, and Google Sheets to continuously find and collate relevant job listings tailored to my skills. The end-to-end pipeline scrapes opportunities, dedupes listings, and populates a shareable spreadsheet to easily track applications. I detail the implementation, challenges faced, and future enhancements like intelligent filtering and automated resume customization. This serves both as a guide for others to create similar projects and a demonstration of my hands-on engineering skills.
-type: blog
+type: project
 
 tags: ["New-Jobs"]
 ---
