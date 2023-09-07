@@ -18,20 +18,21 @@ In the age of digital transformation, automation is the key to efficiency. When 
 
 At first glance, Google Scripts might seem like a whole new language to learn, especially if you're familiar with popular scripting languages like JavaScript. However, you'll be pleased to know that diving into Google Scripts is not like starting from scratch. In fact, Google Scripts is quite similar to JavaScript. Here's how I write a quick and dirty script to do my job:
 
-1. **Basic Syntax Knowledge**: Familiarity with the fundamental syntax of the language, such as:
+1. **AI Tools**: Obviously use AI tools for writing code; use the above to help you debug your code or help find why it is not working. I generally start by asking ChatGPT or Claude to write a starter script on what I want to do and then build on top of the scripts to add/functionality/debug/ add logging etc.
+
+2. **Basic Syntax Knowledge**: Familiarity with the fundamental syntax of the language, such as:
 
 * Variables (var, let, const)
 * Control structures (if, for, while)
 * Functions (function keyword or arrow functions)
-* Inline Comments: Even if it's a quick script, a few inline comments can help clarify your logic, especially if you need to revisit the script later.
-
-2. **Error Handling**: While you might skip comprehensive error handling in a quick script, at least have basic checks or try...catch blocks to handle potential pitfalls.
+* Inline Comments: Even if it's a quick script, a few inline comments can help clarify your logic, especially if you need to revisit the script later
 
 3. **Debugging and Logging**: If you've used console.log() in JavaScript for debugging, you'll find a similar friend in Google Scripts with the Logger.log() method.
 
-4. **Built-in Functions & Methods**: A good grasp of the built-in functions and methods can save a lot of time. For Google Scripts, this might mean knowing methods related to Sheets or Docs. For JavaScript, it could be array or string manipulation methods.
+4. **Error Handling**: While you might skip comprehensive error handling in a quick script, at least have basic checks or try...catch blocks to handle potential pitfalls.
 
-5. **AI Tools**: Obviously use AI tools for writing code; use the above to help you debug your code or help find why it is not working
+5. **Built-in Functions & Methods**: A good grasp of the built-in functions and methods can save a lot of time. For Google Scripts, this might mean knowing methods related to Sheets or Docs. For JavaScript, it could be array or string manipulation methods.
+
 
 
 
