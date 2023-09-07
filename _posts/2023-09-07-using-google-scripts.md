@@ -2,8 +2,7 @@
 layout: post
 title: Why I'm Using Google Scripts and Why You Should Too
 description: Discover how I harness the power of Google Scripts to automate and enhance my Google Sheets workflows. From adding timestamps to protecting data and automating emails, dive into my curated repository, <a href = "https://bit.ly/461dukt" target="_blank">UsefulGoogleSheetScripts</a>, to streamline your tasks and elevate your Sheets game
-type: project
-meta_description: "Unlock the potential of Google Sheets with Google Scripts. Explore our curated repository, <a href = "https://bit.ly/461dukt" target="_blank">UsefulGoogleSheetScripts</a>, for automation, enhanced functionality, and seamless integrations. Transform your workflow today"
+type: blog
 
 tags: ["Life-Optimization"]
 ---
