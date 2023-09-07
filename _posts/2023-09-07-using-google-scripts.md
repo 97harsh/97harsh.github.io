@@ -5,7 +5,7 @@ description: Discover how I harness the power of Google Scripts to automate and 
 type: project
 meta_description: "Unlock the potential of Google Sheets with Google Scripts. Explore our curated repository, <a href = "https://bit.ly/461dukt" target="_blank">UsefulGoogleSheetScripts</a>, for automation, enhanced functionality, and seamless integrations. Transform your workflow today"
 
-tags: ["life-optimization"]
+tags: ["Life-Optimization"]
 ---
 
 ### TL;DR
