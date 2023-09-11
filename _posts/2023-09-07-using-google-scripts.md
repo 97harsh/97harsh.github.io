@@ -22,10 +22,10 @@ At first glance, Google Scripts might seem like a whole new language to learn, e
 
 2. **Basic Syntax Knowledge**: Familiarity with the fundamental syntax of the language, such as:
 
-* Variables (var, let, const)
-* Control structures (if, for, while)
-* Functions (function keyword or arrow functions)
-* Inline Comments: Even if it's a quick script, a few inline comments can help clarify your logic, especially if you need to revisit the script later
+    * Variables (var, let, const)
+    * Control structures (if, for, while)
+    * Functions (function keyword or arrow functions)
+    * Inline Comments: Even if it's a quick script, a few inline comments can help clarify your logic, especially if you need to revisit the script later
 
 3. **Debugging and Logging**: If you've used console.log() in JavaScript for debugging, you'll find a similar friend in Google Scripts with the Logger.log() method.
 
