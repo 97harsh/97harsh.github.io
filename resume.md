@@ -26,12 +26,16 @@ Courses: Data Structures and Algorithm, Pattern Recognition and Machine Learning
 ## Currently
 ### Graph Prediction on Medical Multimodal data, Advisor: <a href="https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ" target="_blank">Prof. Vijaya Kolachalama</a>
 - Alzhimers prediction using Whole slide images as graphs
-- Creating heterogenous graphs to predict disease
+- Creating heterogenous graphs, combining data from multiple sources
 
 ## Course Project
+### Multi-object Tracking and Segmentation with BDD100k dataset
+Image and Video Computing, CS 585
+
+- Increased MOTSP metric by over current SOTA by developing an end-to-end framework combining MaskDINO for segmentation and customized DeepSORT for tracking.
+
 ### Graphics Generation using Natural Language
-Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" target="_blank">Prof. Iddo Drori</a>
-<a href="https://bit.ly/3Sv38Us" target="_blank">link</a>
+Deep Learning, CS523
 
 - Implemented a code generation and modification loop using a natural language prompt using Python and Pytorch
 - Demonstrated adding and removing objects on CARLA simulations using GPT-3
