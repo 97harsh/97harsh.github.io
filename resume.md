@@ -24,6 +24,9 @@ Jul 2015 - Jun 2019 <br />
 Courses: Data Structures and Algorithm, Pattern Recognition and Machine Learning, Parallel Computing
 
 ## Currently
+### Graph Prediction on Medical Multimodal data, Advisor: <a href="https://scholar.google.com/citations?hl=en&user=YgjYrrcAAAAJ" target="_blank">Prof. Vijaya Kolachalama</a>
+- Alzhimers prediction using Whole slide images as graphs
+- Creating heterogenous graphs to predict disease
 ### Research Assistant, Advisor: <a href="https://scholar.google.co.il/citations?user=DDIjoEUAAAAJ" target="_blank">Prof. Iddo Drori</a>
 - Researching techniques in Prompt engineering on large language models like GPT4
 - Building techniques in creating content for education using prompt engineering with Techniques like Chain of Though(CoT) prompting, Automatic Prompt Engineering
