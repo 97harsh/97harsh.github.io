@@ -15,7 +15,7 @@ Connect with me:
 <a href="https://github.com/97harsh" target="_blank">Github</a>
 <!-- [Github](https://github.com/97harsh) -->
 
-<a href="https://www.linkedin.com/in/sharma97/" target="_blank">LinkedIn</a>
+<a href="https://www.linkedin.com/in/sharma-ai/" target="_blank">LinkedIn</a>
 
 
 Thanks for reading !!
