@@ -15,10 +15,6 @@ I am currently doing my Master's in AI from Boston University.
 
 One particularly exciting project I'm working on looks at aggregating brain imaging data from different sources for individual patients. The goal is to build predictive models that can analyze these aggregated neurological images to detect conditions like Alzheimer's disease and chronic traumatic encephalopathy. While this is ambitious work, I'm using transformers and graph learning to account for missing data and identify the most salient features across modalities. This type of multimodal aggregation and analysis could someday unlock new insights into neurological disorders and personalized medicine, even in the face of missing data.
 
-![Graph transformers](/assets/images/gtp_build_graph.png){:class="post-images-class" title="Building Graphs using images"}
-Image Source: Graph Transformer(Yi et al.)
-
-
 <img src="/assets/images/gtp_build_graph.png" alt="Building Graphs using images" style="border: 2px solid #000;">
 Image Source: Graph Transformer(Yi et al.)
 
