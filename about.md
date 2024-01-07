@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thanks for being here
+title: About
 ---
 
 <p class="message">
