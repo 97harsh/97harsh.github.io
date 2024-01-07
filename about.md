@@ -19,6 +19,10 @@ One particularly exciting project I'm working on looks at aggregating brain imag
 Image Source: Graph Transformer(Yi et al.)
 
 
+<img src="/assets/images/gtp_build_graph.png" alt="Building Graphs using images" style="border: 2px solid #000;">
+Image Source: Graph Transformer(Yi et al.)
+
+
 Prior to joining Boston University, I spent 3 years working in machine learning engineer roles where I wore many hats as both a data scientist and data engineer, building and deploying models while also migrating legacy systems. I took on whatever was needed to solve problems and deliver impact.
 
 
@@ -31,6 +35,8 @@ Some of the achievements from this experience that I'm most proud of include:
 
 
 Across EV, fintech, and retail sectors, I leveraged my core data science and engineering skills to ship end-to-end machine learning solutions. This hands-on experience applying AI and data analytics to drive tangible business results gave me a strong foundation that motivates my current research at the intersection of healthcare and cutting-edge machine learning. I'm proud of my track record of tackling complex problems and delivering impact through a mix of data science, engineering, and cross-functional collaboration.
+
+### Projects
 
 
 Connect with me:
