@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Harsh Sharma
 tagline:          'A collection of my open source projects and publications'
-description:      'A personal website showcasing my open source projects, work experience, and publications.'
+description:      'Progress lies in the pursuit of better problems, sometimes powered by data.'
 url:              https://97harsh.github.io
 baseurl:          /
 
@@ -28,4 +28,4 @@ github:
   repo:           https://github.com/97harsh
 
 # Meta Description
-meta_description: 'Progress lies in the pursuit of better problems, sometimes powered by data.'
+meta_description: 'A personal website showcasing my open source projects, work experience, and publications.'
