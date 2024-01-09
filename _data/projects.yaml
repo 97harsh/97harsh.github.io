@@ -1,7 +1,7 @@
-- title: Project 1
-  image: project1.jpg
-  description: Description1
-  link: http://github.com/97harsh/97harsh.github.io
+- title: UBC OCEAN challenge
+  image: project-OCEAN_image.png
+  description: Predicting Breast Cancer subtypes in Whole slide images
+  link: https://github.com/97harsh/CS640-UBCOCEAN-Competition
 
 
 - title: Project 1
