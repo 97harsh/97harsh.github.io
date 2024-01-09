@@ -35,7 +35,7 @@ Across EV, fintech, and retail sectors, I leveraged my core data science and eng
 ### Projects
 <div class="projects-container">
   {% for project in site.data.projects %}
-    <a href="{{ project.link }}" class="project-link">
+    <a href="{{ project.link }}" target="_blank" class="project-link">
       <div class="project">
         <img src="{{ project.image }}" alt="{{ project.title }}" />
         <div class="project-info">
