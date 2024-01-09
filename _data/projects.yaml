@@ -1,5 +1,5 @@
 - title: UBC OCEAN challenge
-  image: project-OCEAN_image.png
+  image: /assets/images/project-OCEAN_image.png
   description: Predicting Breast Cancer subtypes in Whole slide images
   link: https://github.com/97harsh/CS640-UBCOCEAN-Competition
 
