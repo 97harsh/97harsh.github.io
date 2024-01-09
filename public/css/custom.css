@@ -53,6 +53,8 @@ Styleguide Components.Images.AlignRight
 .project {
     position: relative;
     border: 1px solid #ccc;
+    width: 200px; /* Fixed width for each project */
+    height: 200px; /* Fixed height for each project */
     overflow: hidden;
 }
 
