@@ -107,9 +107,20 @@ Styleguide Components.Images.AlignRight
     font-weight: normal;
 }
 
-/* For smaller screens, change the layout to a single column */
+/* For screens up to 600px */
 @media screen and (max-width: 600px) {
     .projects-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Display projects in a single column */
+    }
+
+    .project-info {
+        opacity: 1; /* Show project info by default */
+        transition: none; /* Disable transition on smaller screens */
+    }
+
+    /* Retain hover effect for larger screens */
+    .project:hover .project-info {
+        opacity: 1;
+        transition: opacity 0.3s ease; /* Add transition effect on hover */
     }
 }
