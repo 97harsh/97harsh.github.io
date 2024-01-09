@@ -6,7 +6,7 @@
 
 - title: Multi Object Tracking Segmentation on BDD100k
   image: /assets/images/project-MOTS_image.gif
-  description: MOTS on BDD100k for CVPR workshop
+  description: MOTS on BDD100k for CVPR workshop, using combination of MaskDINO and different tracker algorithms
   link: https://github.com/97harsh/CS585-MultiObjectTrackingSegmentation
 
 - title: Code generation using Codex on CARLA
