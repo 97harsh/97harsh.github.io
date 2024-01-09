@@ -32,7 +32,7 @@ Some of the achievements from this experience that I'm most proud of include:
 
 Across EV, fintech, and retail sectors, I leveraged my core data science and engineering skills to ship end-to-end machine learning solutions. This hands-on experience applying AI and data analytics to drive tangible business results gave me a strong foundation that motivates my current research at the intersection of healthcare and cutting-edge machine learning. I'm proud of my track record of tackling complex problems and delivering impact through a mix of data science, engineering, and cross-functional collaboration.
 
-### Projects
+### Notable Projects:
 <div class="projects-container">
   {% for project in site.data.projects %}
     <a href="{{ project.link }}" target="_blank" class="project-link">
