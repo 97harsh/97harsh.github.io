@@ -9,7 +9,7 @@
   description: MOTS on BDD100k for CVPR workshop, using combination of MaskDINO and different tracker algorithms
   link: https://github.com/97harsh/CS585-MultiObjectTrackingSegmentation
 
-- title: Code generation using Codex on CARLA
+- title: Text driven generation of 3D animation through Code(Pre-ChatGPT)
   image: /assets/images/project-CODEX_image.png
-  description: Using Codex to generate code to modify the enviroment generated in CARLA(pre-ChatGPT)
+  description: Using Codex to generate code to add/modify elements in CARLA environment
   link: https://github.com/97harsh/graphic_codex
