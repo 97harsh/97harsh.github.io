@@ -9,7 +9,7 @@
   description: MOTS on BDD100k for CVPR workshop
   link: https://github.com/97harsh/CS585-MultiObjectTrackingSegmentation
 
-# - title: Multi Object Tracking Segmentation on BDD100k
-#   image: /assets/images/project-MOTS_image.gif
-#   description: MOTS on BDD100k for CVPR workshop
-#   link: https://github.com/97harsh/CS585-MultiObjectTrackingSegmentation
+- title: Code generation using Codex on CARLA
+  image: /assets/images/project-CODEX_image.png
+  description: Using Codex to generate code to modify the enviroment generated in CARLA(pre-ChatGPT)
+  link: https://github.com/97harsh/graphic_codex
