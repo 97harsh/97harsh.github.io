@@ -4,7 +4,12 @@
   link: https://github.com/97harsh/CS640-UBCOCEAN-Competition
 
 
-- title: Project 1
-  image: project1.jpg
-  description: Description1
-  link: http://github.com/97harsh/97harsh.github.io
+- title: Multi Object Tracking Segmentation on BDD100k
+  image: /assets/images/project-MOTS_image.gif
+  description: MOTS on BDD100k for CVPR workshop
+  link: https://github.com/97harsh/CS585-MultiObjectTrackingSegmentation
+
+# - title: Multi Object Tracking Segmentation on BDD100k
+#   image: /assets/images/project-MOTS_image.gif
+#   description: MOTS on BDD100k for CVPR workshop
+#   link: https://github.com/97harsh/CS585-MultiObjectTrackingSegmentation
