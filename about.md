@@ -35,13 +35,11 @@ Across EV, fintech, and retail sectors, I leveraged my core data science and eng
 ### Projects
 <div class="projects-container">
   {% for project in site.data.projects %}
-    <a href="{{ project.link }}" class="project-link">
-      <div class="project">
-        <img src="{{ project.image }}" alt="{{ project.title }}" />
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
-      </div>
-    </a>
+    <div class="project">
+      <img src="{{ project.image }}" alt="{{ project.title }}" />
+      <div class="project-title">{{ project.title }}</div>
+      <div class="project-description">{{ project.description }}</div>
+    </div>
   {% endfor %}
 </div>
 
