@@ -37,8 +37,10 @@ Across EV, fintech, and retail sectors, I leveraged my core data science and eng
   {% for project in site.data.projects %}
     <div class="project">
       <img src="{{ project.image }}" alt="{{ project.title }}" />
-      <div class="project-title">{{ project.title }}</div>
-      <div class="project-description">{{ project.description }}</div>
+      <div class="project-info">
+        <div class="project-title">{{ project.title }}</div>
+        <div class="project-description">{{ project.description }}</div>
+      </div>
     </div>
   {% endfor %}
 </div>
