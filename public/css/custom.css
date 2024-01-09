@@ -42,3 +42,28 @@ Styleguide Components.Images.AlignRight
     margin-left: auto;
     margin-right: 0;
 }
+
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* For smaller screens, change the layout to a single column */
+@media screen and (max-width: 600px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
