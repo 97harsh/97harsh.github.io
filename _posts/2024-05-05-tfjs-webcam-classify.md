@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deploying simple webcam based classifier
+title: Deploying simple webcam based image classifier using Tensorflow
 description: Deploying webcam based classifier; written in Node Js. The model is relatively light and trains on the browser. Checkout the app here <a href = "https://tfjs-2-classification.vercel.app" target="_blank">Vercel App</a>. 
 type: blog
 
