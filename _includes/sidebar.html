@@ -6,13 +6,13 @@
 <div class="sidebar" id="sidebar">
 
   <div id="sidebar-logo" style="align:center">
-    <a href="{{site.url}}/about">
-      <img src="{{ site.baseurl }}/assets/images/me.webp" alt="A photo of Me(Harsh Sharma)"/>
+    <a href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/me.webp' | relative_url }}" alt="A photo of Me(Harsh Sharma)"/>
     </a>
   </div>
 
   <div class="sidebar-item" style="text-align:center">
-    <p><a href="{{site.url}}/about">Harsh Sharma</a></p>
+    <p><a href="{{ '/' | relative_url }}">Harsh Sharma</a></p>
     <p>{{ site.description }}</p>
   </div>
 
@@ -25,26 +25,26 @@
     
     <!--For future reference icons are being drawn from font awesome  (hence fa-stuff classes) -->
     
-        <a href="https://www.github.com/{{ site.author.github }}", target="_blank">
+        <a href="https://www.github.com/{{ site.author.github }}" target="_blank">
           <i class="fa fa-github fa-lg"></i>
         </a>
         
-        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}", target="_blank">
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">
           <i class="fa fa-linkedin-square fa-lg"></i>
         </a>
         
-        <a href="mailto: {{ site.author.email }}", target="_blank">
+        <a href="mailto:{{ site.author.email }}" target="_blank">
           <i class="fa fa-envelope fa-lg"></i>
         </a>
     
-        <a href="https://drive.google.com/file/d/1dNTXLqY7BK2ifxx7L-n0_mo-EC6-cTxa/view", target="_blank">
+        <a href="https://drive.google.com/file/d/1dNTXLqY7BK2ifxx7L-n0_mo-EC6-cTxa/view" target="_blank">
           <i class="fa fa-file-pdf-o fa-lg"></i>
         </a>
     
   </div>
     
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -55,7 +55,7 @@
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
