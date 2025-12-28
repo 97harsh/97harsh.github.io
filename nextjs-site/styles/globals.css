@@ -1,0 +1,18 @@
+/* Global styles */
+html {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Font class for OpenDyslexic */
+.opendyslexic-font {
+  font-family: 'OpenDyslexic', sans-serif !important;
+}
+
+.opendyslexic-font * {
+  font-family: 'OpenDyslexic', sans-serif !important;
+}
