@@ -35,11 +35,6 @@ export function FontProvider({ children }: FontProviderProps) {
     setHasChosenFont(true);
   };
 
-  // Don't render children until mounted to avoid hydration mismatch
-  if (!mounted) {
-    return <div className={font === 'opendyslexic' ? 'opendyslexic-font' : ''}>{children}</div>;
-  }
-
   return (
     <FontContext.Provider value={{ font, setFont, hasChosenFont }}>
       <div className={font === 'opendyslexic' ? 'opendyslexic-font' : ''}>
@@ -51,6 +46,13 @@ export function FontProvider({ children }: FontProviderProps) {
 
 export const useFont = () => {
   const ctx = useContext(FontContext);
-  if (!ctx) throw new Error('useFont must be used within FontProvider');
+  if (!ctx) {
+    // Return default values for SSR
+    return {
+      font: 'default' as Font,
+      setFont: () => {},
+      hasChosenFont: false,
+    };
+  }
   return ctx;
 };
