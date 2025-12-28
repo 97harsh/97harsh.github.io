@@ -39,9 +39,10 @@ export default function PostPage({ post, relatedPosts }: PostPageProps) {
         </div>
 
         {post.frontmatter.description && (
-          <p className="post-description">
-            <em>{post.frontmatter.description}</em>
-          </p>
+          <p
+            className="post-description"
+            dangerouslySetInnerHTML={{ __html: `<em>${post.frontmatter.description}</em>` }}
+          />
         )}
 
         <div

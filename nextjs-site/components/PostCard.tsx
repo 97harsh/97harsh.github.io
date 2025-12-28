@@ -18,7 +18,10 @@ export default function PostCard({ post }: PostCardProps) {
       <span className="post-date">{formattedDate}</span>
 
       {post.frontmatter.description && (
-        <p className="post-description">{post.frontmatter.description}</p>
+        <p
+          className="post-description"
+          dangerouslySetInnerHTML={{ __html: post.frontmatter.description }}
+        />
       )}
 
       {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (

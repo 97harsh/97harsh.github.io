@@ -2,7 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
-import html from 'remark-html';
+import remarkRehype from 'remark-rehype';
+import rehypeRaw from 'rehype-raw';
+import rehypeStringify from 'rehype-stringify';
 
 const postsDirectory = path.join(process.cwd(), 'content/posts');
 
@@ -80,9 +82,11 @@ export function getPostBySlug(slug: string): Post | null {
     // Parse frontmatter and content
     const { data, content } = matter(fileContents);
 
-    // Convert markdown to HTML
+    // Convert markdown to HTML (with raw HTML support)
     const processedContent = remark()
-      .use(html, { sanitize: false })
+      .use(remarkRehype, { allowDangerousHtml: true })
+      .use(rehypeRaw)
+      .use(rehypeStringify)
       .processSync(content);
     const htmlContent = processedContent.toString();
 
