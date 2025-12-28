@@ -88,8 +88,21 @@ export function getPostBySlug(slug: string): Post | null {
 
     // Validate frontmatter has required fields
     const frontmatter = data as PostFrontmatter;
+
+    // Extract date from filename if not in frontmatter (YYYY-MM-DD-slug.md)
+    if (!frontmatter.date) {
+      const dateMatch = fileName.match(/^(\d{4}-\d{2}-\d{2})/);
+      if (dateMatch) {
+        frontmatter.date = dateMatch[1];
+      }
+    }
+
     if (!frontmatter.title || !frontmatter.date || !frontmatter.type) {
-      console.error(`Invalid frontmatter in ${fileName}`);
+      console.error(`Invalid frontmatter in ${fileName}:`, {
+        hasTitle: !!frontmatter.title,
+        hasDate: !!frontmatter.date,
+        hasType: !!frontmatter.type
+      });
       return null;
     }
 

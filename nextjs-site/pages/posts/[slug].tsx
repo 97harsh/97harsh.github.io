@@ -10,6 +10,15 @@ interface PostPageProps {
 }
 
 export default function PostPage({ post, relatedPosts }: PostPageProps) {
+  if (!post) {
+    return (
+      <div className="post">
+        <h1>Post not found</h1>
+        <p>The requested post could not be loaded.</p>
+      </div>
+    );
+  }
+
   const formattedDate = format(new Date(post.frontmatter.date), 'MMMM d, yyyy');
 
   return (
