@@ -5,12 +5,17 @@ export default function WelcomeModal() {
   const { hasChosenFont, setFont } = useFont();
   const [isVisible, setIsVisible] = useState(false);
   const [selectedFont, setSelectedFont] = useState<'default' | 'opendyslexic'>('default');
+  const [mounted, setMounted] = useState(false);
 
+  // Check localStorage directly on mount to ensure persistence
   useEffect(() => {
-    if (!hasChosenFont) {
+    setMounted(true);
+    const hasChosen = localStorage.getItem('hasChosenFont');
+
+    if (!hasChosen) {
       setIsVisible(true);
     }
-  }, [hasChosenFont]);
+  }, []);
 
   const handleFontSelect = (font: 'default' | 'opendyslexic') => {
     setSelectedFont(font);
@@ -23,11 +28,14 @@ export default function WelcomeModal() {
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Escape') {
+      // Don't just close - save default preference
+      setFont('default');
       setIsVisible(false);
     }
   };
 
-  if (!isVisible) return null;
+  // Don't render until mounted to avoid hydration issues
+  if (!mounted || !isVisible) return null;
 
   return (
     <div className="welcome-overlay" onKeyDown={handleKeyDown}>
