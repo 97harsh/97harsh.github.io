@@ -16,3 +16,11 @@ body {
 .opendyslexic-font * {
   font-family: 'OpenDyslexic', sans-serif !important;
 }
+
+/* Keep Font Awesome icons working */
+.opendyslexic-font .fa,
+.opendyslexic-font .fa::before,
+.opendyslexic-font [class^="fa-"],
+.opendyslexic-font [class*=" fa-"] {
+  font-family: FontAwesome !important;
+}

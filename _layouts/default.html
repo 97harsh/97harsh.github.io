@@ -5,12 +5,14 @@
   {% include meta.html %}
 
   <body>
-
+    {% include welcome-modal.html %}
     {% include sidebar.html %}
 
     <div class="content container">
       {{ content }}
     </div>
 
+    <!-- Welcome Modal CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}public/css/welcome-modal.css">
   </body>
 </html>
