@@ -43,9 +43,44 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" defer>
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  
+  <!-- OpenDyslexic Font -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@open-dyslexic/font@1.5.0/open-dyslexic.min.css">
+  
+  <!-- Custom JavaScript -->
+  <script src="{{ site.baseurl }}public/js/custom.js" defer></script>
+  
+  <!-- Font Selection Modal -->
+  <div id="font-selection-modal" class="font-modal" style="display: none;">
+    <div class="font-modal-content">
+      <h2>Choose Your Preferred Font</h2>
+      <p>Select the font that works best for you. You can change this anytime using the font toggle in the sidebar.</p>
+      
+      <div class="font-option" data-font="default">
+        <h3>Default Font</h3>
+        <p>Standard font optimized for general readability.</p>
+      </div>
+      
+      <div class="font-option" data-font="opendyslexic">
+        <h3>OpenDyslexic</h3>
+        <p>Specially designed to help with common reading errors caused by dyslexia. <a href="https://opendyslexic.org/" target="_blank" rel="noopener noreferrer">Learn more about OpenDyslexic</a>.</p>
+      </div>
+      
+      <div class="font-buttons">
+        <button id="font-confirm-btn">Confirm Selection</button>
+      </div>
+    </div>
+  </div>
 
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=OpenDyslexic:wght@400;700&display=swap" rel="stylesheet">
+  
   <!-- RSS -->
   <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
 
@@ -60,8 +95,19 @@
     });
   </script> -->
 
-  <!-- Sample JS for post processing -->
-  <script src="{{ site.baseurl }}/public/js/custom.js"></script>
+  <!-- Custom JavaScript -->
+  <script>
+    // Add a small delay to ensure the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      // Load custom.js after other resources
+      var script = document.createElement('script');
+      script.src = '{{ site.baseurl }}public/js/custom.js';
+      script.async = false; // Ensure this loads in order
+      document.head.appendChild(script);
+      
+      console.log('Custom script loading...');
+    });
+  </script>
   
   <!-- Google tag (gtag.js) -->
   <script defer src="https://www.googletagmanager.com/gtag/js?id=G-Z4CE4QZ4BD"></script>
