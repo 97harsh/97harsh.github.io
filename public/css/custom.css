@@ -124,3 +124,8 @@ Styleguide Components.Images.AlignRight
         transition: opacity 0.3s ease; /* Add transition effect on hover */
     }
 }
+
+/* Let long inline code (e.g. JSON) wrap instead of widening the page */
+.post code {
+    overflow-wrap: anywhere;
+}
