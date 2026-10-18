@@ -7,13 +7,14 @@ type: project
 tags: ["Life-Optimization", "Speech", "Edge-AI"]
 ---
 
-## AIDR (AI Didn't Read)
+## AI;DR (AI Didn't Read)
 *This part is for you, the human. Everything after it is written for your coding agent.*
 
-Have you ever thought: instead of waiting on Alexa (or whatever assistant shipped in the box), why not just build the thing you actually want? That's what this blog is about from here on: ideas I thought were cool, built instead of settling for the default, mostly to make my own life a little smoother.
+Why are we waiting on Alexa (or whatever assistant shipped in the box), why not just build the thing you actually want? mostly to make my own life a little smoother.
 
 This one is a **voice remote for my Fire TV that lives on my Mac**.
 
+* I don't want to says "Alexa, do xxx" just want it to be always on and switch when it was meant for the TV
 * I say "open Netflix", "pause", "volume up 10" or "search for The Bear on Hulu", and the TV does it.
 * Nothing leaves the laptop. Speech-to-text, voice recognition and the TV control all run locally.
 * It only listens to **my** voice, and only acts when the **whole phrase** is a TV command, so the TV's own dialogue and people chatting don't trigger it.
