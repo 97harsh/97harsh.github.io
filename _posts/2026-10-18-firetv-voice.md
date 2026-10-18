@@ -1,16 +1,33 @@
 ---
 layout: post
 title: "FireTV Voice: A Private, On-Device Voice Remote for My Fire TV"
-description: I built an always-listening voice remote for my Fire TV that runs entirely on my M1 MacBook Air. Whisper on Metal for speech-to-text, two speaker-embedding models so it only reacts to my voice, a rule-based intent parser, and a virtual Bluetooth remote over ADB. End of speech to command sent is about half a second in dry runs. Here's how it works, what surprised me, and what's still left to test.
+description: Why depend on Alexa when you can build the remote you actually want? I built an always-listening voice remote for my Fire TV that runs entirely on my M1 MacBook Air. Whisper on Metal for speech-to-text, two speaker-embedding models so it only reacts to my voice, a rule-based intent parser, and a virtual Bluetooth remote over ADB. End of speech to command sent is about half a second in dry runs. Here's how it works, what surprised me, and what's still left to test.
 type: project
 
-tags: ["Speech", "Edge-AI"]
+tags: ["Life-Optimization", "Speech", "Edge-AI"]
 ---
 
-## TL; DR
-A voice remote for my Fire TV that lives on my Mac. I say "open Netflix", "pause", "volume up 10" or "search for The Bear on Hulu", and it does it. Speech never leaves the laptop. It only listens to **my** voice, and only acts when the **whole phrase** is a TV command.
+## The idea
+Have you ever thought: instead of waiting on Alexa (or whatever assistant shipped in the box), why not just build the thing you actually want?
 
-Tech Stack:
+That's what this blog is about from here on. Ideas I thought were cool, that I built instead of settling for the default, mostly to make my own life a little smoother. This one is a voice remote for my Fire TV that lives on my Mac. I say "open Netflix", "pause", "volume up 10" or "search for The Bear on Hulu", and it does it. Speech never leaves the laptop. It only listens to **my** voice, and only acts when the **whole phrase** is a TV command.
+
+## AIDR (AI Didn't Read)
+Not a summary for you, a prompt for your coding agent. Paste this into Claude Code (or whatever you use) to build something similar:
+
+> Build a private, always-listening voice remote for my Fire TV that runs entirely on my Mac (Apple Silicon). Nothing goes to the cloud.
+>
+> - Mic: a tiny signed Swift .app that owns microphone permission and streams 16 kHz mono audio to a Python engine (macOS only prompts for an app, not a bare launchd script). Run everything as launchd agents at login.
+> - Segment speech with Silero VAD.
+> - For each segment, in parallel: speech-to-text with whisper.cpp small.en on Metal (kept warm in whisper-server), and a speaker check with two sherpa-onnx embedding models (TitaNet-small + ERes2Net) plus a small logistic-regression head trained on my voice vs. TV, other and synthetic voices. Drop the transcript if it's not me.
+> - Parse text with regex rules into actions: open app, play/pause, nav keys, volume, seek, per-app search deep links. "TV" is an optional wake word. Ambiguous words ("pause", "back") only act if I'm mid TV session, not mid conversation.
+> - Control the TV over one persistent `adb shell`. For keys, don't use `input keyevent` (~1.5 s, it spawns a JVM); register a virtual HID consumer-control remote with Android's `hid` tool and write one JSON report per key press.
+> - Start in an "observe" mode that shows what it would do without touching the TV. Add a menu bar icon and a screen-edge glow for feedback.
+> - Log every decision with latency, and add a CLI to enroll my voice, switch observe/live, and show the log.
+>
+> Target: end of speech to command sent in under ~500 ms.
+
+## The stack
 1. Silero VAD: finds where speech starts and stops
 2. whisper.cpp (small.en, Metal): speech-to-text on the M1 GPU
 3. TitaNet-small + ERes2Net (via sherpa-onnx): "is this Harsh speaking?"
@@ -18,7 +35,7 @@ Tech Stack:
 5. ADB + Android's `hid` tool: a virtual Bluetooth remote on the Fire TV
 6. Two small Swift apps: one owns the microphone, one draws a glow around the screen and a menu bar icon
 
-## Why build this?
+## Why not just use Alexa?
 Alexa on the Fire TV works, but it's slow and every request goes through the cloud. Most of what I ask the TV for is a tiny set of commands: open an app, pause, go back, turn it up. That doesn't need a data center. I wanted something that feels instant, runs on hardware I already own, and doesn't stream my living room to anyone.
 
 The constraint I set myself: no button to press. It should be always listening, which immediately creates the two hard problems of this project. The TV itself is talking all the time, and so are the people in the room.
