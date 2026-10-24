@@ -23,6 +23,8 @@ This one is a **voice remote for my Fire TV that lives on my Mac**.
 
 If you want one too, hand this page to Claude Code (or your agent of choice) and tell it to build it for your setup.
 
+The code, scripts and tests are on GitHub: [97harsh/firetv-voice](https://github.com/97harsh/firetv-voice).
+
 ---
 
 ## For agents: overview
@@ -30,7 +32,7 @@ Goal: an always-listening, owner-only, fully local voice remote for an Amazon Fi
 
 Two problems define the design: the TV talks constantly, and so do the people in the room. Every utterance therefore has to pass a speaker check (is this the owner?) and an addressee check (is this said to the TV?) before it acts.
 
-Reference implementation: Python engine, two small Swift apps, launchd agents, ~2,300 lines total.
+Reference implementation: [97harsh/firetv-voice](https://github.com/97harsh/firetv-voice) — Python engine, two small Swift apps, launchd agents, ~2,300 lines total. Unit tests for the parser and addressee logic run with `pytest`; `scripts/` has the live TV test and a standalone `hid` remote demo.
 
 ## Architecture
 
@@ -75,7 +77,7 @@ Tested on Fire OS 8.
 
 * **Don't use `input keyevent` for keys.** Each call takes ~1.5 s because `input` starts a fresh JVM.
 * **`sendevent` doesn't work.** It would be fast, but SELinux on Fire OS 8 denies writes to `/dev/input`.
-* **What works: Android's `hid` tool.** Keep one `adb shell hid -` process open. It registers a virtual HID device through `/dev/uhid`. Register a consumer-control device once, then each key press is one JSON line on stdin. Keys land in ~10–20 ms.
+* **What works: Android's `hid` tool.** Keep one `adb shell hid -` process open. It registers a virtual HID device through `/dev/uhid`. Register a consumer-control device once, then each key press is one JSON line on stdin. Keys land in ~10–20 ms. Standalone demo: [`scripts/hid_remote.py`](https://github.com/97harsh/firetv-voice/blob/main/scripts/hid_remote.py).
   * Register: `{"id":1,"command":"register","name":"FireTV Voice Remote","vid":4660,"pid":22136,"bus":"bluetooth","descriptor":[...]}` with a consumer-control report descriptor (report id 1, one 16-bit usage).
   * Press: `{"id":1,"command":"report","report":[1, usage & 0xFF, usage >> 8]}` followed by the release `{"id":1,"command":"report","report":[1,0,0]}`.
   * Usages: Home 0x223, Back 0x224, Menu 0x40, Up/Down/Left/Right 0x42–0x45, Select 0x41, Play/Pause 0xCD, Fast-forward 0xB3, Rewind 0xB4, Next 0xB5, Previous 0xB6, Volume up/down 0xE9/0xEA, Mute 0xE2.
